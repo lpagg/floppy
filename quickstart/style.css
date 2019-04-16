@@ -9,3 +9,9 @@ article {
   padding: 2em 0 5em 0;
   position: relative;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
