@@ -1,44 +1,11 @@
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
 body {
-  background-color: #fff;
-  font-family: sans-serif;
-  //overflow: hidden;
+font-size: 20px;
+line-height: 1.45;
 }
 
-#preview {
-	position: fixed;
-	width: 320px;
-	top: 20px;
-	right: 20px;
-	height: 480px;
-	border: 1px solid black;
-	z-index: 1000;
-}
-
-.CodeMirror {
-	//border: 1px solid #eee;
-	height: auto;
-}
-
-#buttons {
-	position: fixed;
-	right: 20px;
-	bottom: 20px;
-	border: 1px solid black;
-	z-index: 1000;
-}
-
-#info {
-	position: fixed;
-	width: 480px;
-	top: 20px;
-	left: 20px;
-	height: 640px;
-	border: 1px solid black;
-	z-index: 1000;
-	display: none;
+article {
+  margin: 0 auto;
+  max-width: 35em;
+  padding: 2em 0 5em 0;
+  position: relative;
 }
