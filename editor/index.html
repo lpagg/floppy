@@ -625,7 +625,7 @@ window.addEventListener('resize', _resize, false);
 <div id=buttons>
     <input type="file" id="myfile">
     <button type="button" onclick="savefile();">Save</button>
-	<button type="button" onclick="info();">Info</button>
+	<button type="button" onclick="savefilehtml();">Save html</button>
 </div>
   
 <script>
@@ -688,9 +688,15 @@ window.addEventListener('resize', _resize, false);
       }
       setTimeout(updatePreview, 300);
 	  
-	  function savefile() {
+	function savefile() {
 		var blob = new Blob([editor.getValue()], {type: "text/plain;charset=utf-8"});
 		saveAs(blob, "floppy.txt");
+	};
+	
+	function savefilehtml() {
+		var wholecode = document.getElementById("codeBefore").value+editor.getValue()+document.getElementById("codePost").value;
+		var blob = new Blob([wholecode], {type: "text/plain;charset=utf-8"});
+		saveAs(blob, "floppy.html");
 	};
 	
 </script>
