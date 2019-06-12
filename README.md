@@ -4,7 +4,7 @@ Introduction here ...
 
 ## Tutorial
 
-### Step 1
+### Step 0
 
 Description here ...
 
@@ -23,7 +23,7 @@ function render() {
 
 <img src="/images/step0.png" width="160" border="2">
 
-### Step 2
+### Step 1
 
 Description here ...
 
@@ -34,10 +34,10 @@ function update() {
 
 }
 function render() {
-
+Rect(0,0,WIDTH,HEIGHT,"lightblue");
 }
 ```
 
 #### Result
 
-![](/images/step0.png "step0")
+<img src="/images/step1.png" width="160" border="2">
