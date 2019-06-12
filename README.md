@@ -6,12 +6,9 @@ Introduction here ...
 
 ### Step 1
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| ```javascript
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```  
-| Content Cell  |
-| Content Cell  | Content Cell  |
+#### Code
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
