@@ -19,4 +19,4 @@ function render() {
 
 #### Result
 
-![](/images/path/to/folder/image.png "Image Title")
+![](/images/step0.png "step0")
