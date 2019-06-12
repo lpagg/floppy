@@ -46,4 +46,23 @@ Rect(0,0,WIDTH,HEIGHT,"lightblue"); // NEW
 
 <img src="/images/step1.png" width="160" border="2">
 
+### Step 2
+
+Description here ...
+
+#### Code
+
+```javascript
+function update() {
+
+}
+function render() {
+Rect(0,0,WIDTH,HEIGHT,"lightblue"); // NEW
+}
+```
+
+#### Result
+
+<img src="/images/step2.png" width="160" border="2">
+
 ## Commands
