@@ -21,7 +21,7 @@ function render() {
 
 #### Result
 
-![](/images/step0.png "step0")
+![](/images/step0.png "step0" | width=100)
 
 ### Step 2
 
