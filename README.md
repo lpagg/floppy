@@ -9,6 +9,14 @@ Introduction here ...
 #### Code
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+function update() {
+
+}
+function render() {
+
+}
 ```
+
+#### Result
+
+![](/images/path/to/folder/image.png "Image Title")
