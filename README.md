@@ -53,11 +53,16 @@ Description here ...
 #### Code
 
 ```javascript
+padX=100; // NEW
+padY=430; // NEW 
+padW=120; // NEW
+padH=15; // NEW
 function update() {
 
 }
 function render() {
-Rect(0,0,WIDTH,HEIGHT,"lightblue"); // NEW
+Rect(0,0,WIDTH,HEIGHT,"lightblue");
+Rect(padX,padY,padW,padH,"green"); // NEW
 }
 ```
 
