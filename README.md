@@ -21,7 +21,7 @@ function render() {
 
 #### Result
 
-<img src="/images/step0.png" width="160" border="1">
+<img src="/images/step0.png" width="160" border="2">
 
 ### Step 2
 
