@@ -2,7 +2,8 @@
 
 Introduction here ...
 
-[Link-name2](#tutorial)
+[Tutorial](#tutorial)
+[Commands](#commands)
 
 ## Tutorial
 
@@ -43,3 +44,5 @@ Rect(0,0,WIDTH,HEIGHT,"lightblue");
 #### Result
 
 <img src="/images/step1.png" width="160" border="2">
+
+## Commands
