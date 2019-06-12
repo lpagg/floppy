@@ -38,7 +38,7 @@ function update() {
 
 }
 function render() {
-* Rect(0,0,WIDTH,HEIGHT,"lightblue"); *
+Rect(0,0,WIDTH,HEIGHT,"lightblue"); // NEW
 }
 ```
 
