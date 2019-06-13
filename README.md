@@ -99,3 +99,28 @@ Circle(ballX,ballY,ballR,"red"); // NEW
 <img src="/images/step3.png" width="160">
 
 ## Commands
+
+LOOP
+update();
+render();
+
+DRAW
+Rect(left, top, width, height, color);
+Circle(left, top, radius, color);
+Text(text, left, top, size, color);
+Line(xi, yi, xf, yf, width, col);
+WIDTH
+HEIGHT
+
+INTERACTION
+TAPPED
+TAPX
+TAPY
+
+SOUND
+SoundEffect(frequencyValue, attack, decay, type, volumeValue, panValue, wait, pitchBendAmount, reverse, randomValue, dissonance,  echo,    reverb, timeout);
+
+UTILS
+Random(min, max);
+PitchToFrequency(octave, semitone);
+
