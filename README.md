@@ -27,7 +27,7 @@ function render() {
 
 <img src="/images/step0.png" width="160">
 
-### Step 1
+### Step 1 - Coloring Background
 
 Description here ...
 
@@ -46,7 +46,7 @@ Rect(0,0,WIDTH,HEIGHT,"lightblue"); // NEW
 
 <img src="/images/step1.png" width="160">
 
-### Step 2
+### Step 2 - Drawing Pad
 
 Description here ...
 
@@ -70,7 +70,7 @@ Rect(padX,padY,padW,padH,"green"); // NEW
 
 <img src="/images/step2.png" width="160">
 
-### Step 3
+### Step 3 - Drawing Ball
 
 Description here ...
 
