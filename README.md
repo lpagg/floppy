@@ -1,6 +1,8 @@
 # :floppy_disk: floppy :floppy_disk:
 
-Introduction here ...
+*floppy* is a (simple) game engine, it comes with a (simple) web editor online.
+It can be used as ...
+or ...
 
 ## Index
 
