@@ -1,6 +1,6 @@
 # :floppy_disk: floppy :floppy_disk:
 
-*floppy* is a (simple) game engine, it comes with a (simple) <a href="https://lpagg.github.io/floppy/editor/" target="_blank">web editor</a> online.
+*floppy* is a (simple) game engine, it comes with a (simple) <a href="https://lpagg.github.io/floppy/editor/">web editor</a> online.
 It can be used as ...
 or ...
 
