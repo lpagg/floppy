@@ -106,15 +106,22 @@ Circle(ballX,ballY,ballR,"red"); // NEW
 
 ## Commands
 
-LOOP
-update();
-render();
+Game Loop
 
-DRAW
+```javascript
+function update() {};
+function render() {};
+```
+
+Draw
+
+```javascript
 Rect(left, top, width, height, color);
 Circle(left, top, radius, color);
 Text(text, left, top, size, color);
 Line(xi, yi, xf, yf, width, col);
+```
+
 WIDTH
 HEIGHT
 
