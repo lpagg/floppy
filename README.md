@@ -108,14 +108,14 @@ Circle(ballX,ballY,ballR,"red"); // NEW
 
 ## Commands
 
-Game Loop
+### Game Loop
 
 ```javascript
 function update() {};
 function render() {};
 ```
 
-Draw
+### Draw
 
 ```javascript
 Rect(left, top, width, height, color);
