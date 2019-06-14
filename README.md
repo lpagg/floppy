@@ -2,9 +2,15 @@
 
 Introduction here ...
 
+## Index
+
+[Index](#index)
+
 [Tutorial](#tutorial)
 
 [Commands](#commands)
+
+[Editor](#editor)
 
 ## Tutorial
 
