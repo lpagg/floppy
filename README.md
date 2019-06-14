@@ -124,3 +124,7 @@ UTILS
 Random(min, max);
 PitchToFrequency(octave, semitone);
 
+## Editor
+
+aaa
+
