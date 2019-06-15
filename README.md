@@ -9,7 +9,7 @@ or ...
 [Tutorial](#tutorial)
 * [Step 0](#step-0)
 * [Step 1 - Coloring Background](#step-1---coloring-background)
-* [Step 2](#step-0)
+* [Step 2 - Drawing Pad](#step-2---drawing-pad)
 * [Step 3](#step-0)
 
 [Commands](#commands)
