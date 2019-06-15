@@ -15,6 +15,7 @@ or ...
 * [Step 5 - Bounching Right](#step-5---bounching-right)
 * [Step 6 - Bounching Left](#step-6---bounching-left)
 * [Step 7 - Bounching Top](#step-7---bounching-top)
+* [Step 8 - Moving Pad](#step-8---moving-pad)
 
 [Commands](#commands)
 
@@ -241,6 +242,50 @@ Rect(padX,padY,padW,padH,"green");
 Circle(ballX,ballY,ballR,"red"); 
 }
 ```
+
+### Step 8 - Moving Pad
+
+Description here ...
+
+#### Code
+
+```javascript
+padX=100;
+padY=430;
+padW=120;
+padH=15;
+ballX=160;
+ballY=70;
+ballR=16;
+dirX=1;
+dirY=1;
+speed=2;
+function update() {
+if (ballX + ballR > WIDTH) {
+dirX=-1;
+}
+if  (ballX < ballR) { 
+dirX=1; 
+}
+if  (ballY < ballR) {
+dirY=1;
+}
+if (TAPPED) { // NEW
+padX=TAPX-padW/2; // NEW
+} // NEW
+ballX=ballX+dirX*speed;
+ballY=ballY+dirY*speed;
+}
+function render() {
+Rect(0,0,WIDTH,HEIGHT,"lightblue");
+Rect(padX,padY,padW,padH,"green");
+Circle(ballX,ballY,ballR,"red"); 
+}
+```
+
+#### Result
+
+<img src="/images/step8.png" width="160">
 
 ## Commands
 
