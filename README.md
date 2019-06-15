@@ -9,8 +9,7 @@ or ...
 [Index](#index)
 
 [Tutorial](#tutorial)
-
-  [Step 0](#step-0)
+* [Step 0](#step-0)
 
 [Commands](#commands)
 
