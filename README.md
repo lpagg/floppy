@@ -12,7 +12,7 @@ or ...
 * [Step 2 - Drawing Pad](#step-2---drawing-pad)
 * [Step 3 - Drawing Ball](#step-3---drawing-ball)
 * [Step 4 - Moving Ball](#step-4---moving-ball)
-* [Step 4 - Moving Ball](#step-4---moving-ball)
+* [Step 5 - Bounching Right](#step-5---bounching-right)
 
 [Commands](#commands)
 
