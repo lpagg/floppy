@@ -214,7 +214,7 @@ Circle(ballX,ballY,ballR,"red");
 
 #### Result
 
-<img src="/images/step6.png" width="160">
+<img src="/images/step5.png" width="160">
 
 ## Commands
 
