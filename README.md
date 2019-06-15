@@ -13,6 +13,7 @@ or ...
 * [Step 3 - Drawing Ball](#step-3---drawing-ball)
 * [Step 4 - Moving Ball](#step-4---moving-ball)
 * [Step 5 - Bounching Right](#step-5---bounching-right)
+* [Step 6 - Bounching Left](#step-5---bounching-left)
 
 [Commands](#commands)
 
@@ -176,6 +177,44 @@ Circle(ballX,ballY,ballR,"red");
 #### Result
 
 <img src="/images/step5.png" width="160">
+
+### Step 6 - Bounching Left
+
+Description here ...
+
+#### Code
+
+```javascript
+padX=100;
+padY=430;
+padW=120;
+padH=15;
+ballX=160;
+ballY=70;
+ballR=16;
+dirX=1;
+dirY=1;
+speed=0.5;
+function update() {
+if (ballX + ballR > WIDTH) {
+dirX=-1;
+}
+if  (ballX < ballR) {  // NEW
+dirX=1;  // NEW 
+}  // NEW
+ballX=ballX+dirX*speed;
+ballY=ballY+dirY*speed;
+}
+function render() {
+Rect(0,0,WIDTH,HEIGHT,"lightblue");
+Rect(padX,padY,padW,padH,"green");
+Circle(ballX,ballY,ballR,"red"); 
+}
+```
+
+#### Result
+
+<img src="/images/step6.png" width="160">
 
 ## Commands
 
