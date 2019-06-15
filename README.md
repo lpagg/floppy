@@ -13,7 +13,7 @@ or ...
 * [Step 3 - Drawing Ball](#step-3---drawing-ball)
 * [Step 4 - Moving Ball](#step-4---moving-ball)
 * [Step 5 - Bounching Right](#step-5---bounching-right)
-* [Step 6 - Bounching Left](#step-5---bounching-left)
+* [Step 6 - Bounching Left](#step-6---bounching-left)
 
 [Commands](#commands)
 
