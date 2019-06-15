@@ -11,6 +11,7 @@ or ...
 * [Step 1 - Coloring Background](#step-1---coloring-background)
 * [Step 2 - Drawing Pad](#step-2---drawing-pad)
 * [Step 3 - Drawing Ball](#step-3---drawing-ball)
+* [Step 4 - Moving Ball](#step-4---moving-ball)
 
 [Commands](#commands)
 
