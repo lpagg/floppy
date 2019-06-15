@@ -10,6 +10,8 @@ or ...
 
 [Tutorial](#tutorial)
 
+  [Step 0](#step-0)
+
 [Commands](#commands)
 
 [Editor](#editor)
