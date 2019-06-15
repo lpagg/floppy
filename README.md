@@ -226,9 +226,12 @@ function update() {
 if (ballX + ballR > WIDTH) {
 dirX=-1;
 }
-if  (ballX < ballR) {  // NEW
-dirX=1;  // NEW 
-}  // NEW
+if  (ballX < ballR) { 
+dirX=1; 
+}
+if  (ballY < ballR) { // NEW
+dirY=1; // NEW
+} // NEW
 ballX=ballX+dirX*speed;
 ballY=ballY+dirY*speed;
 }
