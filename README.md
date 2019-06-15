@@ -10,7 +10,7 @@ or ...
 * [Step 0](#step-0)
 * [Step 1 - Coloring Background](#step-1---coloring-background)
 * [Step 2 - Drawing Pad](#step-2---drawing-pad)
-* [Step 3](#step-0)
+* [Step 3 - Drawing Ball](#step-3---drawing-ball)
 
 [Commands](#commands)
 
