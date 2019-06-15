@@ -106,6 +106,38 @@ Circle(ballX,ballY,ballR,"red"); // NEW
 
 <img src="/images/step3.png" width="160">
 
+### Step 4 - Moving Ball
+
+Description here ...
+
+#### Code
+
+```javascript
+padX=100;
+padY=430;
+padW=120;
+padH=15;
+ballX=160;
+ballY=70;
+ballR=16;
+dirX=1; // NEW
+dirY=1; // NEW
+speed=2; // NEW
+function update() {
+ballX=ballX+dirX*speed; // NEW
+ballY=ballY+dirY*speed; // NEW
+}
+function render() {
+Rect(0,0,WIDTH,HEIGHT,"lightblue");
+Rect(padX,padY,padW,padH,"green");
+Circle(ballX,ballY,ballR,"red"); // NEW
+}
+```
+
+#### Result
+
+<img src="/images/step4.png" width="160">
+
 ## Commands
 
 ### Game Loop
