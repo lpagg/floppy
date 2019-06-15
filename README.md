@@ -160,7 +160,7 @@ ballY=70;
 ballR=16;
 dirX=1;
 dirY=1;
-speed=0.5;
+speed=2;
 function update() {
 if (ballX + ballR > WIDTH) { // NEW
 dirX=-1; // NEW
@@ -174,10 +174,6 @@ Rect(padX,padY,padW,padH,"green");
 Circle(ballX,ballY,ballR,"red"); 
 }
 ```
-
-#### Result
-
-<img src="/images/step5.png" width="160">
 
 ### Step 6 - Bounching Left
 
@@ -195,7 +191,7 @@ ballY=70;
 ballR=16;
 dirX=1;
 dirY=1;
-speed=0.5;
+speed=2;
 function update() {
 if (ballX + ballR > WIDTH) {
 dirX=-1;
@@ -213,10 +209,6 @@ Circle(ballX,ballY,ballR,"red");
 }
 ```
 
-#### Result
-
-<img src="/images/step5.png" width="160">
-
 ### Step 7 - Bounching Top
 
 Description here ...
@@ -233,7 +225,7 @@ ballY=70;
 ballR=16;
 dirX=1;
 dirY=1;
-speed=0.5;
+speed=2;
 function update() {
 if (ballX + ballR > WIDTH) {
 dirX=-1;
