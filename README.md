@@ -37,10 +37,6 @@ function render() {
 }
 ```
 
-#### Result
-
-<img src="/images/step0.png" width="160">
-
 ### Step 1 - Coloring Background
 
 Description here ...
