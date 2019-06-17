@@ -17,6 +17,7 @@ or ...
 * [Step 7 - Bounching Top](#step-7---bounching-top)
 * [Step 8 - Moving Pad](#step-8---moving-pad)
 * [Step 9 - Bounching Pad](#step-9---bounching-pad)
+* [Step 10 - Restarting Ball](#step-10---restarting-ball)
 
 [Commands](#commands)
 
@@ -321,6 +322,53 @@ padX=TAPX-padW/2;
 if  ( (ballX >padX)  &&  (ballX <padX+padW)  &&  (ballY+ballR>padY)  )  { // NEW
 dirY=-1; // NEW
 } // NEW
+ballX=ballX+dirX*speed;
+ballY=ballY+dirY*speed;
+}
+function render() {
+Rect(0,0,WIDTH,HEIGHT,"lightblue");
+Rect(padX,padY,padW,padH,"green");
+Circle(ballX,ballY,ballR,"red"); 
+}
+```
+
+### Step 10 - Restarting Ball
+
+Description here ...
+
+#### Code
+
+```javascript
+padX=100;
+padY=430;
+padW=120;
+padH=15;
+ballX=160;
+ballY=70;
+ballR=16;
+dirX=1;
+dirY=1;
+speed=2;
+function update() {
+if (ballX + ballR > WIDTH) {
+dirX=-1;
+}
+if  (ballX < ballR) { 
+dirX=1; 
+}
+if  (ballY < ballR) {
+dirY=1;
+}
+if (TAPPED) {
+padX=TAPX-padW/2;
+}
+if  ( (ballX >padX)  &&  (ballX <padX+padW)  &&  (ballY+ballR>padY)  )  { 
+dirY=-1; 
+} 
+if  ( ballY+ballR > padY+padH )   { // NEW
+ballX=160; // NEW
+ballY=70; // NEW
+}
 ballX=ballX+dirX*speed;
 ballY=ballY+dirY*speed;
 }
