@@ -16,7 +16,7 @@ or ...
 * [Step 6 - Bounching Left](#step-6---bounching-left)
 * [Step 7 - Bounching Top](#step-7---bounching-top)
 * [Step 8 - Moving Pad](#step-8---moving-pad)
-* [Step 9 - Bounching Pad](#step-8---bounching-pad)
+* [Step 9 - Bounching Pad](#step-9---bounching-pad)
 
 [Commands](#commands)
 
