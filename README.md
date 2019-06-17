@@ -349,20 +349,34 @@ Text(text, left, top, size, color);
 Line(xi, yi, xf, yf, width, col);
 ```
 
+### Constants
+
+```javascript
 WIDTH
 HEIGHT
+```
 
-INTERACTION
+### Interaction
+
+```javascript
 TAPPED
 TAPX
 TAPY
+```
 
-SOUND
+### Sound
+
+```javascript
 SoundEffect(frequencyValue, attack, decay, type, volumeValue, panValue, wait, pitchBendAmount, reverse, randomValue, dissonance,  echo,    reverb, timeout);
+```
 
-UTILS
+### Utils
+
+```javascript
 Random(min, max);
 PitchToFrequency(octave, semitone);
+```
+
 
 ## Editor
 
