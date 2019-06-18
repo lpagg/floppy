@@ -20,6 +20,7 @@ or ...
 * [Step 10 - Restarting Ball](#step-10---restarting-ball)
 * [Step 11 - Adding Score](#step-11---adding-score)
 * [Step 12 - Adding Lifes](#step-12---adding-lifes)
+* [Step 13 - Adding Challenge](#step-13---adding-challenge)
 
 [Commands](#commands)
 
@@ -486,6 +487,64 @@ Text(score,50,50,30,"green");
 Text(lifes,250,50,30,"red"); // NEW
 }
 ```
+
+### Step 13 - Adding Challenge
+
+Description here ...
+
+#### Code
+
+```javascript
+padX=100;
+padY=430;
+padW=120;
+padH=15;
+ballX=160;
+ballY=70;
+ballR=16;
+dirX=1;
+dirY=1;
+speed=2;
+score=0; 
+lifes=3; 
+function update() {
+if (ballX + ballR > WIDTH) {
+dirX=-1;
+}
+if  (ballX < ballR) { 
+dirX=1; 
+}
+if  (ballY < ballR) {
+dirY=1;
+}
+if (TAPPED) {
+padX=TAPX-padW/2;
+}
+if  ( (ballX >padX)  &&  (ballX <padX+padW)  &&  (ballY+ballR>padY)  )  { 
+dirY=-1;
+score=score+10;
+speed=speed+0.2; // NEW
+} 
+if  ( ballY+ballR > padY+padH )   { 
+ballX=160; 
+ballY=70;
+lifes=lifes-1; 
+}
+if (lifes==0)  { 
+speed=0; 
+} 
+ballX=ballX+dirX*speed;
+ballY=ballY+dirY*speed;
+}
+function render() {
+Rect(0,0,WIDTH,HEIGHT,"lightblue");
+Rect(padX,padY,padW,padH,"green");
+Circle(ballX,ballY,ballR,"red");
+Text(score,50,50,30,"green");
+Text(lifes,250,50,30,"red"); 
+}
+```
+
 
 ## Commands
 
