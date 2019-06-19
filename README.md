@@ -51,7 +51,7 @@ function render() {
 
 ### Step 1 - Coloring Background
 
-In order to color the whole game window with a light blue, we add a Rect command in the render function.
+In order to color the whole game window with a light blue, we add a Rect command to the render function.
 
 #### Code
 
