@@ -51,7 +51,7 @@ function render() {
 
 #### Result
 
-<img src="/images/step0.png" width="160">
+<img src="/images/step0.png">
 
 ### Step 1 - Coloring Background
 
