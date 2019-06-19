@@ -5,7 +5,8 @@
 * it has basic primitives for drawing (rectangles, circles, lines, text)
 * it includes interaction (click, tap)
 * it includes sound (generated)
-* it comes with a (simple) <a href="https://lpagg.github.io/floppy/editor/">web editor</a> online.
+* it comes with a (simple) <a href="https://lpagg.github.io/floppy/editor/">web editor</a> online and ...
+* ... with a tutorial to write your first game (simple, but complete) 
 
 ## Index
 
