@@ -1,8 +1,11 @@
 # :floppy_disk: floppy :floppy_disk:
 
-*floppy* is a (simple) game engine, it cames with a (simple) <a href="https://lpagg.github.io/floppy/editor/">web editor</a> online.
-It can be used as ...
-or ...
+*floppy* is a micro game engine written in javascript.
+
+* it has basic primitives for drawing (rectangles, circles, lines, text)
+* it includes interaction (click, tap)
+* it includes sound (generated)
+* it comes with a (simple) <a href="https://lpagg.github.io/floppy/editor/">web editor</a> online.
 
 ## Index
 
