@@ -36,7 +36,9 @@
 
 ### Step 0
 
-When opening the <a href="https://lpagg.github.io/floppy/editor/">web editor</a> default code include two functions (update and render) with empty body. 
+When opening the <a href="https://lpagg.github.io/floppy/editor/">web editor</a> default code include two functions (update and render) with empty body.
+What it is inside those functions it is  executed continuosly (about 60 times each second).
+First the update function, then the render function.
 
 #### Code
 
