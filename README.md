@@ -656,9 +656,9 @@ Circle(x, y, r, "color");
 ```
 <img src="/images/circle.png">
 
+#### Other commands to describe ...
+
 ```javascript
-Rect(left, top, width, height, color);
-Circle(left, top, radius, color);
 Text(text, left, top, size, color);
 Line(xi, yi, xf, yf, width, col);
 ```
