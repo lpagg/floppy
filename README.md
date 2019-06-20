@@ -106,7 +106,7 @@ Rect(padX,padY,padW,padH,"green"); // NEW
 
 ### Step 3 - Drawing Ball
 
-Description here ...
+To draw the ball, first we define its variables (ballX, ballY, ballR) and then add a [Circle](#circle) command (using those variables). 
 
 #### Code
 
