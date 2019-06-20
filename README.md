@@ -82,7 +82,7 @@ HEIGHT is a constant = 480 = the whole height of game window
 
 ### Step 2 - Drawing Pad
 
-Description here ...
+To draw the pad, first we define four new variables (padX, padY, padW, padH) and then add a Rect command (using those variables). 
 
 #### Code
 
