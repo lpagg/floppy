@@ -637,7 +637,7 @@ function render() {};
 #### Rect
 
 ```javascript
-Rect(x, y, w, h, color);
+Rect(x, y, w, h, "color");
 ```
 
 ```javascript
