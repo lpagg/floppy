@@ -654,7 +654,7 @@ Rect(x, y, w, h, "color");
 ```javascript
 Circle(x, y, r, "color");
 ```
-<img src="/images/rect.png">
+<img src="/images/circle.png">
 
 ```javascript
 Rect(left, top, width, height, color);
