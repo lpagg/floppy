@@ -634,6 +634,12 @@ function render() {};
 
 ### Draw
 
+#### Rect
+
+```javascript
+Rect(x, y, w, h, color);
+```
+
 ```javascript
 Rect(left, top, width, height, color);
 Circle(left, top, radius, color);
