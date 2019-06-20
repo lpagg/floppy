@@ -639,6 +639,7 @@ function render() {};
 ```javascript
 Rect(x, y, w, h, "color");
 ```
+<img src="/images/rect.png">
 
 ```javascript
 Rect(left, top, width, height, color);
