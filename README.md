@@ -72,6 +72,7 @@ Rect(0,0,WIDTH,HEIGHT,"lightblue"); // NEW
 ```
 
 WIDTH is a constant = 320 = the whole width of game window
+
 HEIGHT is a constant = 480 = the whole height of game window
 
 
