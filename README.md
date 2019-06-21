@@ -32,6 +32,8 @@
 
 [Editor](#editor)
 
+[Thanks and Inspiration](#thanks-and-inspirations) 
+
 ## Tutorial
 
 In this tutorial we will create a squash like game.
