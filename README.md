@@ -713,3 +713,14 @@ with:
 * saving game
 * exporting game
 * using offline
+
+## Thanks and Inspirations
+
+For game engine:
+<a href="https://www.smashingmagazine.com/2012/10/design-your-own-mobile-game/">How To Design A Mobile Game With HTML5</a>
+
+For approach:
+<a href="https://www.lexaloffle.com/pico-8.php">pico-8</a>
+
+For sound:
+<a href="https://github.com/kittykatattack/sound.js">sound.js</a>
