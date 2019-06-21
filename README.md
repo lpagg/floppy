@@ -134,7 +134,6 @@ Circle(ballX,ballY,ballR,"red"); // NEW
 
 ### Step 4 - Moving Ball
 
-Description here ...
 To move the ball we update its position (ballX, ballY).
 
 Three new variables are defined in order to manage the update (dirX, dirY, speed).
