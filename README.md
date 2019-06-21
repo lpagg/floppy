@@ -456,7 +456,7 @@ Text(score,50,50,30,"green"); // NEW
 
 ### Step 12 - Adding Lifes
 
-Description here ...
+To manage multiple lifes, we add a new variable (lifes). We set it initially to 3 and we subtract 1 every time we lose a ball.
 
 #### Code
 
@@ -512,7 +512,7 @@ Text(lifes,250,50,30,"red"); // NEW
 
 ### Step 13 - Adding Challenge
 
-Description here ...
+To add a challenge in the game, we increase the ball speed by 0.2 at each bounch on the pad.  
 
 #### Code
 
@@ -569,7 +569,7 @@ Text(lifes,250,50,30,"red");
 
 ### Step 14 - Adding Sound
 
-Description here ...
+Last enrichment. We add a sound (generic) when bounching using the [SoundEffect](#sound) command.
 
 #### Code
 
@@ -630,10 +630,10 @@ Text(lifes,250,50,30,"red");
 
 ### Step 15 - Publishing Online
 
-Description here ...
+We can finally publish the game using <a href="https://htmlpasta.com/">HTML Pasta</a>.
 
-<a href="https://htmlpasta.com/">HTML Pasta</a>
-
+Here the game published online.
+<a href="https://683ea9a6-99c6-4b8d-b537-c1af99256276.htmlpasta.com">Game</a>.
 
 ## Commands
 
@@ -698,8 +698,8 @@ https://github.com/kittykatattack/sound.js#generating-sound-effects-and-music
 ### Utils
 
 ```javascript
-Random(min, max);
-PitchToFrequency(octave, semitone);
+Random(min, max); // Random integer from min to max
+PitchToFrequency(octave, semitone); // Frequency from octave (integer), semitone (integer)
 ```
 
 ## Editor
