@@ -1,6 +1,6 @@
 # :floppy_disk: floppy :floppy_disk:
 
-*floppy* is a micro game engine written in javascript.
+*floppy* is a micro game engine for beginners written in javascript.
 
 * it has basic primitives for drawing (rectangles, circles, lines, text)
 * it includes interaction (click, tap)
