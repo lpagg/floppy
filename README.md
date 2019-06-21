@@ -692,6 +692,8 @@ TAPY
 ```javascript
 SoundEffect(frequencyValue, attack, decay, type, volumeValue, panValue, wait, pitchBendAmount, reverse, randomValue, dissonance,  echo,    reverb, timeout);
 ```
+more information @:
+https://github.com/kittykatattack/sound.js#generating-sound-effects-and-music
 
 ### Utils
 
@@ -704,9 +706,10 @@ PitchToFrequency(octave, semitone);
 
 <a href="https://lpagg.github.io/floppy/editor/">web editor</a>
 
-* it has basic primitives for drawing (rectangles, circles, lines, text)
-* it includes interaction (click, tap)
-* it includes sound (generated)
-* it comes with a (simple) <a href="https://lpagg.github.io/floppy/editor/">web editor</a> online and ...
-* ... with a tutorial to write your first game (simple, but complete) 
+with:
 
+* live preview 
+* syntax warnings
+* saving game
+* exporting game
+* using offline
