@@ -34,6 +34,8 @@
 
 ## Tutorial
 
+In this tutorial we will create a squash like game.
+
 ### Step 0
 
 When opening the <a href="https://lpagg.github.io/floppy/editor/">web editor</a> default code include two functions (update and render) with empty body.
@@ -168,7 +170,7 @@ Circle(ballX,ballY,ballR,"red"); // NEW
 
 ### Step 5 - Bounching Right
 
-Description here ...
+When the ball reaches the right border of game window we set dirX to -1 in order to have the ball bounching.
 
 #### Code
 
@@ -199,7 +201,7 @@ Circle(ballX,ballY,ballR,"red");
 
 ### Step 6 - Bounching Left
 
-Description here ...
+When the ball reaches the left border of game window we set dirX to 1 in order to have the ball bounching.
 
 #### Code
 
@@ -233,7 +235,7 @@ Circle(ballX,ballY,ballR,"red");
 
 ### Step 7 - Bounching Top
 
-Description here ...
+When the ball reaches the top border of game window we set dirY to 1 in order to have the ball bounching.
 
 #### Code
 
@@ -270,7 +272,7 @@ Circle(ballX,ballY,ballR,"red");
 
 ### Step 8 - Moving Pad
 
-Description here ...
+To move the pad, when TAPPED is true, we set the position of the pad taking the x position of our tapping (TAPX). 
 
 #### Code
 
@@ -314,7 +316,7 @@ Circle(ballX,ballY,ballR,"red");
 
 ### Step 9 - Bounching Pad
 
-Description here ...
+When the ball reaches the pad we set dirY to -1 in order to have the ball bounching on the pad.
 
 #### Code
 
@@ -357,7 +359,7 @@ Circle(ballX,ballY,ballR,"red");
 
 ### Step 10 - Restarting Ball
 
-Description here ...
+If the ball crosses the pad games is restarted from initial position.
 
 #### Code
 
@@ -404,7 +406,7 @@ Circle(ballX,ballY,ballR,"red");
 
 ### Step 11 - Adding Score
 
-Description here ...
+In order to manage and show the score, we add a new variable (score) and we use the [Text](#text) command in the render function.
 
 #### Code
 
@@ -658,11 +660,16 @@ Circle(x, y, r, "color");
 ```
 <img src="/images/circle.png">
 
-#### Other commands to describe ...
+#### Text
 
 ```javascript
-Text(text, left, top, size, color);
-Line(xi, yi, xf, yf, width, col);
+Text("text", x, y, size, "color");
+```
+
+#### Line
+
+```javascript
+Line(x_init, y_init, x_end, y_end, width, "color");
 ```
 
 ### Constants
@@ -693,8 +700,13 @@ Random(min, max);
 PitchToFrequency(octave, semitone);
 ```
 
-
 ## Editor
 
-aaa
+<a href="https://lpagg.github.io/floppy/editor/">web editor</a>
+
+* it has basic primitives for drawing (rectangles, circles, lines, text)
+* it includes interaction (click, tap)
+* it includes sound (generated)
+* it comes with a (simple) <a href="https://lpagg.github.io/floppy/editor/">web editor</a> online and ...
+* ... with a tutorial to write your first game (simple, but complete) 
 
