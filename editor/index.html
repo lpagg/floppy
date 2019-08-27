@@ -573,7 +573,7 @@ function Text(text, left, top, size, color) {
 };
 
 function Line(xi, yi, xf, yf, width, col) {
-  _ctx.strokeStyle = '#ff0000';
+  _ctx.strokeStyle = col;
   _ctx.beginPath();
   _ctx.lineWidth = width;
   _ctx.moveTo(xi,yi);
